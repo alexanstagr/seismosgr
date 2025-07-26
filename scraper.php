@@ -14,6 +14,8 @@ $list = $baseURL . '/seismoi-lista';
 $html = file_get_contents($list, false, $context);
 
 
+$html = mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8');
+
 $dom = new DOMDocument();
 libxml_use_internal_errors(true);
 $dom->loadHTML($html);
