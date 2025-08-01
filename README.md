@@ -6,7 +6,7 @@
 
 ### 🔗Δοκιμάστε το API
 
-##### https://alexansta.gr/hellenq.php
+##### https://alexansta.gr/helleneq.php
 ---
 
 ### Εξαγωγή Δεδομένων
